@@ -1,14 +1,14 @@
-import { useParams } from 'react-router-dom';
+import { useParams } from "react-router-dom";
 
 function Detail() {
-    const { id } = useParams();
+  const { id } = useParams();
 
-    return (
-        <div className="container mt-4">
-            <h2>Detail Berita {id}</h2>
-            <p>Isi detail berita dengan ID {id} di tampilkan di sini...</p>
-        </div>
-    );
+  return (
+    <div className="container mt-4">
+      <h2>Detail Berita {id}</h2>
+      <p>Isi detail berita dengan ID {id} di tampilkan di sini...</p>
+    </div>
+  );
 }
 
 export default Detail;
