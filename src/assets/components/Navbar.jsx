@@ -1,6 +1,6 @@
 import { Navbar, Container, Nav } from "react-boostrap";
 
-function() {
+function MyNavbar() {
     return (
     <Navbar bg="dark" variant="dark" expand="lg" className="sticky-top shadow-sm">
         <Container>
